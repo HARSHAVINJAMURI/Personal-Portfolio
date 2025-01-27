@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my first portfolio website">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="favicon1.ico" type="images/x-icon">
+        <link href="https://fonts.cdnfonts.com/css/death-star" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7e07a3bf71.js" crossorigin="anonymous"></script> 
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav> 
+                    <img src="LOGO-2.png" class="logo" alt="logo" loading="eager">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p class="hom">Harsha</p>
+                    <p class="hom1">vinjamuri</p>
+                    <!-- <img class="home-img" src="Home-image.png" alt=" "> -->
+                </div>
+            </div>
+        </div>
+        <!----------------About Section---------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="user.jpg" alt="user">
+                    </div>
+                    <div class="about-col-2"> 
+                        <h1 class="sub-title">ABOUT ME</h1><br>
+                        <p class="abo">I am a final-year B.Tech student specializing in CSE-AIML at Kalasalingam Academy of Research and Education, Tamil Nadu. 
+                            With a strong foundation in programming languages like Python, SQL, and web technologies (HTML, CSS, JS),
+                            I have a keen interest in data science and artificial intelligence. I have gained hands-on experience through internships, 
+                            including a Data Visualization Associate Early Internship and AI with Python Internship, as well as participating in the PwC Launchpad program.
+                            I am proud to have achieved accolades like securing 3rd place in a Hackathon at IIIT Bombay and a poster presentation on AI at IBM ICE Day. 
+                            Additionally, I hold certifications in Python, SQL, and problem-solving from HackerRank and have earned a Silver Badge in CodeChef as a problem solver.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Data Analyst</span><br>Extracting actionable insights from complex datasets to inform strategic business decision</li><br>
+                                <li><span>Web Developer</span><br>Experienced web developer, with a focus on creating responsive and user-friendly websites</li><br>
+                                <li><span>Software Developer</span><br>A passionate, coder ready to translate ideas into functional software applications using latest technologies</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - Current (B.Tech)</span><br>Kalasalingam Academy of reseach and Education<br>CSE-AIML - 8.85 GPA</li><br>
+                                <li><span>2019 - 2021(+2/Intermediate)</span><br>Sasi New Gen Junior College, Velivenu<br>MPC - 965/1000</li><br>
+                                <li><span>2017 - 2019(10th)</span><br>Z.P.High School, Vadisaleru<br>Schooling(10th class) - 9.8 GPA</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024</span><br>Data Visualization Associate Early Internship at Excelerate<br><i class="i">Conducted data analysis and visualization to uncover actionable insights, enhancing decision-making processes during the Internship</i></li><br>
+                                <li><span>2024</span><br>Launchpad Trainee at PWC<br><i class="i">Completed comprehensive training on foundational and advanced data and engineering concepts, fostering technical and professional growth in a dynamic corporate environment.</i></li><br>
+                                <li><span>2023</span><br>AI with Python Internship at Coincent<br><i class="i">Developed and implemented data analysis and predictive modeling techniques using Python to derive actionable insights during the internship.</i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------Skills Section---------------------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">MY SKILLS</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>PYTHON</h2>
+                        <a href="https://www.hackerrank.com/certificates/4711fbf04e00">MORE</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>SQL</h2>
+                        <a href="https://www.hackerrank.com/certificates/7b20d1713e3a">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-java"></i>
+                        <h2>JAVA</h2>
+                        <a href="">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>PROBLEM SOLVING</h2>
+                        <a href="https://www.hackerrank.com/certificates/605e1a775fac">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <h2>HTML</h2>
+                        <a href="https://drive.google.com/file/d/1fALndhs3AnFiuCMgJe_H_7oNiNNUZ20G/view?usp=sharing">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h2>CSS</h2>
+                        <a href=" ">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-js"></i>
+                        <h2>JAVA SCRIPT</h2>
+                        <a href=" ">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-r-project"></i>
+                        <h2>R PROGRAMMING</h2>
+                        <a href=" ">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------Projects Section---------------------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">MY PROJECTS</h1>
+                <p class="p">These are the Projects that I worked and Successfully developed during my Academics.</p>
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/id/1457433817/photo/group-of-healthy-food-for-flexitarian-diet.jpg?s=612x612&w=0&k=20&c=v48RE0ZNWpMZOlSp13KdF1yFDmidorO2pZTu2Idmd3M=" alt="work-1">
+                        <div class="layer">
+                            <h4>RECOMMENDING ENRICHED NUTRITION DIET</h3><a href="https://recommending-enriched-nutrition-diet.onrender.com/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://freefrontend.com/assets/img/bootstrap-galleries/bootstrap-lightbox-image-gallery.jpg" alt="work-2">
+                        <div class="layer">
+                            <h4>PHOTO GALLERY</h4><a href="https://harshavinjamuri.github.io/PhotoGallery-PhotoPassion/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/id/1227193799/vector/concept-law-justice-legal-service-services-of-a-lawyer-notary-men-against-the-backdrop-of.jpg?s=612x612&w=0&k=20&c=Us3rMq0B6ntAida8v9IO0dFiSUESjqOFMxowlXOLmwE=" alt="work-3">
+                        <div class="layer">
+                            <h4>LEGAL LAW ADVISOR BOT</h4><a href="       "><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://streaming.humix.com/poster/GUVncEhJcJccIAMF/25a28ea65c268e174680cd0f6873853b3e655dea2aa4bfb8a4ed5923bdb34610_vWvgEb.jpg" alt="work-1">
+                        <div class="layer">
+                            <h4>COLOR DETECTION</h3><a href=" "><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://miro.medium.com/v2/resize:fit:914/0*9iyN78vkR9gUuY7u" alt="work-2">
+                        <div class="layer">
+                            <h4>DROWSINESS DETECTION</h4><a href=" "><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://repository-images.githubusercontent.com/752285434/7fc2e2cd-9a94-4d2c-a5a6-82f53057db07" alt="work-3">
+                        <div class="layer">
+                            <h4>TEMPERATURE CONVERTER</h4><a href="https://harshavinjamuri.github.io/Temperature/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="b">
+                <a href="#" class="btn">See More</a></div>
+            </div>
+        </div>
+        <!----------------Contact Section---------------------------------->
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">CONTACT ME</h1>
+                        <p><i class="fas fa-paper-plane"></i>vinjamuriharsha123@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"> 7780597484 </i></p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/share/1NcEqEGEAk/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/VHarsha_3?t=PEexGGQaD_qtDom8qRFp8Q&s=08"><i class="fa fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/v.harsha_3?igsh=MTE5cW9qYWZnMnJjdg=="><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/harsha-vinjamuri-062a24232"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/HARSHAVINJAMURI"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.hackerrank.com/profile/vinjamuriharsha1"><i class="fa-brands fa-hackerrank"></i></a>
+                        </div>
+                        <a href="Harsha_resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name"required>
+                            <input type="email" name="Email" placeholder="Your Email"required>
+                            <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright © Harsha-Vinjamuri. Made with <i class="fas fa-heart"></i> by Harsha</p>
+            </div>
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxxn_XmEASo0oGigFA0dt-9LVmMqm41M2nUX8DxXW8UAVE8-Fc9ebhbX8F8Jw-MCUdV/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message Sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },1000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
