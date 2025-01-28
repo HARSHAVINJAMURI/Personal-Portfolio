@@ -69,11 +69,16 @@ To run this project locally:
 - No backend required, it's a static website.
 
 ## Directory Structure
-personal-portfolio/ ├── index.html # Main HTML file ├── style.css # CSS styling file ├── assets/ # Directory for images and other assets │ ├── logo.png # Logo image for the header │ ├── project1.png # Image for project in carousel │ └── ... └── fonts/ # Directory for custom fonts ├── font1.ttf └── font2.ttf
-
-css
-Copy
-Edit
+personal-portfolio/
+- ├── index.html # Main HTML file
+- ├── style.css # CSS styling file
+- ├── assets/ # Directory for images and other assets
+- │ ├── logo.png # Logo image for the header
+- │ ├── project1.png # Image for project in carousel
+- │ └── ...
+- └── fonts/ # Directory for custom fonts
+    - ├── font1.ttf
+    - └── font2.ttf
 
 ## Author
 Harsha Vinjamuri ❤️
