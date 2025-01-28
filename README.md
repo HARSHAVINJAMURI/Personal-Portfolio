@@ -72,6 +72,7 @@ To run this project locally:
 personal-portfolio/
 - ├── index.html # Main HTML file
 - ├── style.css # CSS styling file
+- ├── 
 - ├── assets/ # Directory for images and other assets
 - │ ├── logo.png # Logo image for the header
 - │ ├── project1.png # Image for project in carousel
