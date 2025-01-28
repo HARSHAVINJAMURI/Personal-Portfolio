@@ -71,8 +71,9 @@ To run this project locally:
 ## Directory Structure
 personal-portfolio/
 - ├── index.html # Main HTML file
-- ├── style.css # CSS styling file
-- ├── 
+- ├── index.css # CSS styling file
+- ├── sample.html #  HTML file
+- ├── sample.css  #  css file
 - ├── assets/ # Directory for images and other assets
 - │ ├── logo.png # Logo image for the header
 - │ ├── project1.png # Image for project in carousel
